@@ -36,6 +36,10 @@ body {
   margin-inline-end: 0px;
 }
 
+.text-white {
+  color: white;
+}
+
 .bg-gradient {
   position: relative;
   background: rgb(12, 105, 171);
@@ -44,7 +48,7 @@ body {
     #0061f2 0%,
     rgba(105, 0, 199, 0.8) 100%
   );
-  border-radius: 100%/0 0 100px 100px;
+
   padding-bottom: 6rem;
 }
 
