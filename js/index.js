@@ -13,6 +13,10 @@ $(document).ready(function () {
     if ($(window).width() < 963) {
       console.log("nada");
       menu.addClass("bg-dark");
+
+      $("#img-nav-dropdown").css("display", "none");
+      $("#img-nav-dropdown").css("padding", "0");
+      $("#img-nav-dropdown").css("margin", "0");
     } else {
       menu.removeClass("bg-dark");
     }
@@ -29,9 +33,7 @@ $(document).ready(function () {
 
   $(window).scroll(function () {
     console.log("funca", $(window).width(), $("#menu").offset());
-    $("#img-nav-dropdown").css("display", "none");
-    $("#img-nav-dropdown").css("padding", "0");
-    $("#img-nav-dropdown").css("margin", "0");
+
     opacityDarkMode;
     darkMode();
   });
