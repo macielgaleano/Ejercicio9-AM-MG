@@ -224,3 +224,12 @@ body {
 .none-padding a {
   cursor: pointer;
 }
+
+.bg-inverse {
+  background: rgba(0, 0, 0, 0.6) !important;
+  margin: 0;
+}
+
+.bg-dark {
+  background-color: #1f2d41 !important;
+}
