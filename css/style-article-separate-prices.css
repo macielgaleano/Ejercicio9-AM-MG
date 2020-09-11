@@ -1,0 +1,17 @@
+.documentation-button {
+  color: #fff;
+  background-color: #0061f2;
+  border-color: #0061f2;
+  color: white;
+  border-radius: 25px;
+  font-size: 0.7rem;
+  margin-right: 15px;
+  background: #0061f2;
+  padding: 0.8rem 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+}
