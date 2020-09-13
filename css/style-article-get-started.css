@@ -25,3 +25,19 @@
   overflow: hidden;
   position: relative;
 }
+
+.btn-white {
+  border-radius: 25px;
+  font-size: 0.7rem;
+  margin-right: 15px;
+  padding: 0.8rem 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+  color: #1f2d41;
+  background-color: #fff;
+  border-color: #fff;
+}
