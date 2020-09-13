@@ -7,3 +7,6 @@
   bottom: -50px;
   z-index: 9000;
 }
+.box a {
+  text-decoration: none;
+}
