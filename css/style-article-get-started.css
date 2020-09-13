@@ -1,0 +1,9 @@
+.bg-getStarted-divOut {
+  background-color: #eff3f9;
+}
+
+.box {
+  position: relative;
+  bottom: -50px;
+  z-index: 9000;
+}
