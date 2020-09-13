@@ -10,3 +10,18 @@
 .box a {
   text-decoration: none;
 }
+
+.icon-div {
+  padding: 30px;
+  border-radius: 100%;
+}
+
+.icon-color {
+  background-color: #6900c7;
+}
+
+.box-shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+  overflow: hidden;
+  position: relative;
+}
