@@ -1,3 +1,7 @@
+article {
+  background-color: #eff3f9 !important;
+}
+
 .documentation-button {
   color: #fff;
   background-color: #0061f2;
@@ -14,4 +18,108 @@
   text-transform: uppercase;
   cursor: pointer;
   margin: 0 auto;
+}
+
+.py-10 {
+  padding-top: 10rem;
+}
+
+.pb-10 {
+  padding-bottom: 10rem;
+}
+
+.container .header-titles-box h2 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #323f52;
+}
+
+.container .header-titles-box p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.text-center .badge-sm {
+  font-size: 0.75rem;
+  color: #1f2d41;
+  background-color: #eff3f9;
+}
+
+.text-center .badge {
+  font-weight: 200;
+}
+
+.text-center .badge-marketing {
+  padding: 0.5em 1em;
+}
+
+.separated-card-price {
+  font-size: 3rem;
+  color: #323f52;
+  margin-bottom: 1rem;
+}
+
+.separated-card-price sup {
+  top: -0.5em;
+  font-size: 1.5rem;
+}
+
+.separated-card-price .separated-card-price-period {
+  font-size: 1.25rem;
+}
+
+.separated-card-list {
+  margin-bottom: 0;
+  margin-left: 1.6e;
+}
+
+.separated-card-list .separated-list-item {
+  margin-bottom: 0.5rem;
+}
+
+.separated-card-list .separated-list-item .fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+  color: #00ba94;
+}
+
+.fa-check-circle {
+  color: #00ba94;
+}
+
+.fa-circle {
+  color: grey;
+}
+
+.no-dark {
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #687281;
+}
+
+.text-dark {
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #687281;
+}
+
+.py-5 {
+  padding-top: 5rem;
+}
+
+.center-y {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  font-weight: 200;
+  font-size: 0.9rem;
 }
