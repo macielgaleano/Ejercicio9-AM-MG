@@ -1,0 +1,43 @@
+.bg-getStarted-divOut {
+  background-color: #eff3f9;
+}
+
+.box {
+  position: relative;
+  bottom: -50px;
+  z-index: 9000;
+}
+.box a {
+  text-decoration: none;
+}
+
+.icon-div {
+  padding: 30px;
+  border-radius: 100%;
+}
+
+.icon-color {
+  background-color: #6900c7;
+}
+
+.box-shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-white {
+  border-radius: 25px;
+  font-size: 0.7rem;
+  margin-right: 15px;
+  padding: 0.8rem 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+  color: #1f2d41;
+  background-color: #fff;
+  border-color: #fff;
+}

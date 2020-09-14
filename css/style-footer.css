@@ -14,6 +14,10 @@ footer p {
   color: #90abb3;
 }
 
+.footer i {
+  color: #90abb3;
+}
+
 .bg-footer {
   position: relative;
   background: #1f2d41;
@@ -21,8 +25,8 @@ footer p {
 
 .svg-border-waves {
   color: #1f2d41;
+  padding-top: 0rem;
 }
 .svg-border-waves svg {
   position: relative;
-  padding-top: none;
 }
