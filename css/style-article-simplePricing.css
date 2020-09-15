@@ -1,0 +1,28 @@
+.article-main-title {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #323f52;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-main-subtitle {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.separated-card {
+  margin-right: 0;
+}
+
+.card {
+  border-style: none;
+}
+
+.bg-dark2 {
+  background: #343a40;
+  color: #687281;
+}

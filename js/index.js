@@ -23,18 +23,13 @@ $(document).ready(function () {
   }
   darkMode();
 
-  function opacityDarkMode() {
-    if ($("#menu").offset().top > 100 && $(window).width() > 963) {
-      menu.addClass("bg-inverse");
-    } else {
-      menu.removeClass("bg-inverse");
-    }
-  }
-
   $(window).scroll(function () {
-    console.log("funca", $(window).width(), $("#menu").offset());
-
-    opacityDarkMode;
-    darkMode();
+    if (menu.offset().top > 50 && $(window).width() > 963) {
+      menu.addClass("bg-dark");
+      menu.addClass("no-padding");
+    } else {
+      menu.removeClass("bg-dark");
+      menu.removeClass("no-paddingk");
+    }
   });
 });

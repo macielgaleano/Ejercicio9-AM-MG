@@ -1,21 +1,21 @@
 .footer h5 {
-  color: #90abb3;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer h6 {
-  color: #90abb3;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 footer a {
-  color: #90abb3;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 footer p {
-  color: #90abb3;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer i {
-  color: #90abb3;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .bg-footer {
@@ -29,4 +29,62 @@ footer p {
 }
 .svg-border-waves svg {
   position: relative;
+}
+
+/*Footer*/
+
+.footer-space {
+  background-color: white;
+  padding-bottom: 2rem !important;
+}
+
+.footer-line {
+  border-top: #c5ccd6 solid 1px;
+  padding-top: 2rem !important;
+}
+
+.icons i {
+  color: #c5ccd6 !important;
+}
+
+.footer-main-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #a2acba;
+  display: block;
+}
+.footer-normal-text {
+  margin-bottom: 1rem !important;
+  color: #a2acba;
+  display: block;
+}
+
+.footer-title {
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #a2acba;
+  display: block;
+}
+
+.footer-option {
+  text-decoration: none;
+  color: #a2acba;
+  background-color: transparent;
+  font-weight: 200;
+  color: inherit !important;
+  cursor: pointer;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.footer-option:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.copyright a {
+  color: #a2acba;
+  margin-bottom: 4rem;
 }
